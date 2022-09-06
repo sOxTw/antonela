@@ -1,0 +1,55 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: 'Fredoka One';
+    font-weight: 400;
+    color: whitesmoke;
+    background-color: #f0dede;
+}
+
+.contenedor nav
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.contenedor nav img
+{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.contenedor .StyPhoto
+{
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+} 
+
+.contenedor .StyPhoto img
+{
+    margin: 0 auto;
+    display: inline-block;
+    width: 400px;
+    border: 13px groove #F291B9;
+}
+
+.contenedor .StyPhoto p
+{
+    position: absolute;
+    color: #cd488a;
+    left: 10em;
+    top: 12em;
+    width: 400px;
+    text-align: left;
+    font-size: 1.5em;
+}
